@@ -11,7 +11,7 @@ require "fileutils"
 FileUtils.rm_f(Dir.glob("logs/*.json"))
 FileUtils.rm_f(Dir.glob("logs/*.png"))
 
-#utilizado para os capabities em txt, se não usar txt não tem necessidade
+#utilizado para os capabities em txt, se não usar txt não tem necessidade...
 caps = Appium.load_appium_txt file: File.expand_path("caps/android.txt", __dir__), verbose: true
 Appium::Driver.new(caps, true)
 Appium.promote_appium_methods Object
