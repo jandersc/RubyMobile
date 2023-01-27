@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "mobile:automationName",
+      "value": "UiAutomator2"
+    },
+    {
+      "type": "text",
+      "name": "mobile:deviceName",
+      "value": "Emulator"
+    },
+    {
+      "type": "text",
+      "name": "mobile:app",
+      "value": "C:\\QA\\RubyMobile\\app\\twp.apk"
+    },
+    {
+      "type": "text",
+      "name": "mobile:udid",
+      "value": "emulator-5554"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "path": "/wd/hub"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
