@@ -1,3 +1,4 @@
+#Gancho para executar antes de cada cenário de teste
 Before do
   #faz o start do appium
   driver.start_driver
