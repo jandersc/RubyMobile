@@ -2,4 +2,4 @@
 automationName = "UIAutomator2"
 platformName = "Android"
 deviceName = "Android Emulator"
-app = "C:\\QA\\RubyMobile\\apptwp.apk"
+app = "C:\\QA\\RubyMobile\\app\\twp.apk"
