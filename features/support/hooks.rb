@@ -6,6 +6,9 @@ Before do
   # configuração para aguardar até 10 segundos a exibição de um elemento na tela
   driver.manage.timeouts.implicit_wait = 10
 
+  #guardando a instancia da classe navigator na variavel 
+  @nav = Navigator.new
+
   #Evento para toda vez que iniciar o app vai clicar em começar e vai para home
   find_element(xpath: "//android.widget.Button[@text='COMEÇAR']").click
 end
