@@ -18,5 +18,5 @@ Dado('que acesso a tela de Login') do
     #log(get_source) #pega o código xml da tela, utilizado para capturar toast
     
     #faz uma comparação do texto do toast com o passado na feature
-    expect(@login.toast.text).to eql notice
+    expect(@toaster.toast.text).to eql notice
   end

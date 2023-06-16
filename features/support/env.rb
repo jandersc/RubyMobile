@@ -14,4 +14,5 @@ FileUtils.rm_f(Dir.glob("logs/*.png"))
 #utilizado para os capabities em txt, se não usar txt não tem necessidade...
 caps = Appium.load_appium_txt file: File.expand_path("caps/android.txt", __dir__), verbose: true
 Appium::Driver.new(caps, true)
+#método para ter acesso a todos os métodos do Appium, com isso não é necessário chamar o driver dentro das classes
 Appium.promote_appium_methods Object

@@ -16,3 +16,10 @@ class Navigator
        find_element(xpath: "//*[@text='#{target}']").click 
     end
 end
+
+class Toaster
+    #método para retornar o valor do toast
+    def toast
+        return find_element(xpath: "//android.widget.Toast")
+    end
+end

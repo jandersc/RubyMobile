@@ -12,6 +12,9 @@ Before do
   #guardando a instancia da classe login na variável 
   @login = LoginScreen.new
 
+  #guardando a instancia da classe Toaster na variável 
+  @toaster = Toaster.new
+
   #Evento para toda vez que iniciar o app vai clicar em começar e vai para home
   find_element(xpath: "//android.widget.Button[@text='COMEÇAR']").click
 end

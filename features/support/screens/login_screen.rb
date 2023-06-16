@@ -10,10 +10,5 @@ class LoginScreen
         #seletor do campo ENTRAR utilizando o click
         find_element(id: "io.qaninja.android.twp:id/btnSubmit").click
     end
-    
-    #método para retornar o valor do toast
-    def toast
-        return find_element(xpath: "//android.widget.Toast")
-    end
 
 end
